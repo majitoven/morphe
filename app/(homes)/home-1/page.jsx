@@ -1,5 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import Header2 from "@/components/headers/Header2";
 import SearchPopup from "@/components/headers/component/SearchPopup";
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/common/Blogs";
@@ -16,7 +16,7 @@ export default function HomePage1() {
   return (
     <>
       <SearchPopup />
-      <Header1 />
+      <Header2 />
       <Hero />
       <About />
 
