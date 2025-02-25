@@ -18,8 +18,7 @@ export default function Cta() {
                 Let's Create Something Great
               </h2>
               <p className="sec-text mt-30 mb-n2 text-white">
-                We shift you from today’s reality to tomorrow’s potential,
-                ensuring
+                Contame tu idea y te ayudo a explotar tu negocio. <strong>Fácil.</strong>
               </p>
             </div>
           </div>
@@ -30,8 +29,8 @@ export default function Cta() {
               href="/contact"
             >
               <span className="link-effect">
-                <span className="effect-1">LET'S TALK</span>
-                <span className="effect-1">LET'S TALK</span>
+                <span className="effect-1">CHARLEMOS</span>
+                <span className="effect-1">CHARLEMOS</span>
               </span>
             </Link>
           </div>

@@ -5,9 +5,9 @@ import React, { useEffect } from "react";
 import { useParallax } from "react-scroll-parallax";
 
 export default function Hero() {
-  const parallax = useParallax({
-    speed: -20,
-  });
+  // const parallax = useParallax({
+  //   speed: -20,
+  // });
 
   return (
     <div className="hero-wrapper hero-6" id="hero">
@@ -29,8 +29,7 @@ export default function Hero() {
             </div>
             <div className="col-lg-6 offset-lg-5">
               <p className="hero-text wow img-custom-anim-right animated">
-                We are digital agency that helps businesses develop immersive
-                and engaging user experiences that drive top level growth
+              Creamos experiencias digitales que no pasan desapercibidas. Combinamos código, diseño y un toque de magia para que tu web sea justo lo que necesitás.
               </p>
             </div>
           </div>
@@ -52,11 +51,11 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div
+      {/* <div
         ref={parallax.ref}
         className="hero-6-thumb wow img-custom-anim-top animated jarallax background-image"
         style={{ backgroundImage: "url(/assets/img/hero/hero-6-1.webp)" }}
-      ></div>
+      ></div> */}
     </div>
   );
 }

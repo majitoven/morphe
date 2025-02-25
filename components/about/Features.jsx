@@ -13,7 +13,7 @@ export default function Features() {
         <Image
           width={838}
           height={778}
-          src="/assets/img/normal/why_3-1.jpg"
+          src="/assets/img/pic.jpg"
           alt="img"
         />
       </div>
@@ -22,20 +22,29 @@ export default function Features() {
           <div className="col-lg-6">
             <div className="title-area mb-45">
               <h2 className="sec-title">
-                Passionate About Creating Quality Design
+                Fusionamos tecnología con creatividad
               </h2>
             </div>
-            <h4>We Love What We Do</h4>
-            <p>
-              We are a creative agency working with brands building insightful
-              strategy, creating unique designs and crafting value
-            </p>
-            <h4 className="mt-35">Why Work With Us</h4>
-            <p className="mb-n1">
-              If you ask our clients what it’s like working with 36, they’ll
-              talk about how much we care about their success. For us, real
-              relationships fuel real success. We love building brands
-            </p>
+            <div style={{background: 'white', display: 'ruby'}}>
+              <h4>¿Qué hacemos?</h4>
+            </div>
+            <ul>
+              <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
+                <h6 style={{margin: 0}}><strong>Diseño web a medida:</strong></h6> Tomamos tus ideas y las convertimos en un estilo que te represente 100%.
+              </li>
+              <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
+                <h6 style={{margin: 0}}><strong>Desarrollo web:</strong></h6> Código sólido y rápido para que tu sitio vuele.
+              </li>
+              <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
+                <h6 style={{margin: 0}}><strong>Fotografía y multimedia:</strong></h6> Fotos y banners que muestran quién sos (la estética es lo mío y se nota).
+              </li>
+              <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
+                <h6 style={{margin: 0}}><strong>SEO y analíticas:</strong></h6> Hago que te encuentren en Google y te explico qué buscan tus visitas.
+              </li>
+              <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
+                <h6 style={{margin: 0}}><strong>Lo querés, lo tenés:</strong></h6> Tiendas online, sistemas de reservas o lo que necesites, lo armamos.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -1,20 +1,20 @@
 export const steps = [
   {
     id: 1,
-    number: "Step 1",
-    title: "Strategic Approach",
-    text: "We are a creative agency brands building insightful strategy, creating unique designs helping",
+    number: "Paso 1",
+    title: "Charla Inicial",
+    text: "Charlamos para entender qué querés, vemos referencias y arrancamos con el proyecto."
   },
   {
     id: 2,
-    number: "Step 2",
-    title: "Collaboration is Key",
-    text: "We are a creative agency brands building insightful strategy, creating unique designs helping",
+    number: "Paso 2",
+    title: "Diseño y Desarrollo",
+    text: "Te muestro semanalmente cómo va quedando el diseño y el código para que estés conforme."
   },
   {
     id: 3,
-    number: "Step 3",
-    title: "End to End Delivery",
-    text: "We are a creative agency brands building insightful strategy, creating unique designs helping",
-  },
+    number: "Paso 3",
+    title: "Lanzamiento",
+    text: "Ponemos tu web online, rápida y lista para destacar. Configuramos dominio y correos."
+  }
 ];

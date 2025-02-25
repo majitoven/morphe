@@ -9,18 +9,17 @@ export default function Cta() {
         <div className="row justify-content-xl-between justify-content-center">
           <div className="col-xl-5 col-lg-10">
             <div className="title-area mb-xl-0 mb-40">
-              <h2 className="sec-title">Let’s Work Together</h2>
+              <h2 className="sec-title">Trabajemos juntos :)</h2>
               <p className="sec-text mt-30 mb-n2">
-                We are digital agency that helps businesses develop immersive
-                and engaging user experiences
+                Escribinos para contarnos de tu negocio y conocernos un poco más.
               </p>
-              <p className="copyright-text mt-4 mb-3">
-                Copyright © 2024
-                <a href="https://themeforest.net/user/ib-themes/portfolio">
-                  ib-themes
-                </a>
-              </p>
-              <div className="social-btn style3 justify-content-xl-start justify-content-center">
+              {/* <p className="copyright-text mt-4 mb-3">
+                Copyright © 2025 */}
+                {/* <a href="https://themeforest.net/user/ib-themes/portfolio"> */}
+                  {/* Morphe */}
+                {/* </a> */}
+              {/* </p> */}
+              <div className="social-btn style3 justify-content-center justify-content-center" style={{marginTop: '2rem'}}>
                 <Socials />
               </div>
             </div>
@@ -39,7 +38,7 @@ export default function Cta() {
                         className="form-control style-border"
                         name="name"
                         id="name"
-                        placeholder="Full name*"
+                        placeholder="Nombre completo*"
                       />
                     </div>
                   </div>
@@ -50,18 +49,7 @@ export default function Cta() {
                         className="form-control style-border"
                         name="email"
                         id="email"
-                        placeholder="Email address*"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-12">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control style-border"
-                        name="website"
-                        id="website"
-                        placeholder="Website link"
+                        placeholder="Email*"
                       />
                     </div>
                   </div>
@@ -69,7 +57,7 @@ export default function Cta() {
                     <div className="form-group">
                       <textarea
                         name="message"
-                        placeholder="How Can We Help You*"
+                        placeholder="Cómo podemos ayudarte?*"
                         id="contactForm"
                         className="form-control style-border style2"
                       ></textarea>
@@ -79,8 +67,8 @@ export default function Cta() {
                 <div className="form-btn col-12">
                   <button type="submit" className="btn mt-20">
                     <span className="link-effect">
-                      <span className="effect-1">SEND MESSAGE</span>
-                      <span className="effect-1">SEND MESSAGE</span>
+                      <span className="effect-1">ENVIAR MENSAJE</span>
+                      <span className="effect-1">ENVIAR MENSAJE</span>
                     </span>
                   </button>
                 </div>

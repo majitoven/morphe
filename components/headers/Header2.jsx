@@ -115,7 +115,7 @@ export default function Header2() {
                       <Image
                         width={86}
                         height={24}
-                        src="/assets/img/mor.png"
+                        src="/assets/img/morphe.png"
                         alt="logo"
                       />
                     </Link>
@@ -140,30 +140,7 @@ export default function Header2() {
                     </button>
                   </div>
                 </div>
-                <div className="col-auto d-none d-lg-block">
-                  <div className="header-button">
-                    <button
-                      type="button"
-                      className="search-btn searchBoxToggler"
-                      onClick={() =>
-                        document
-                          .getElementsByClassName("popup-search-box")[0]
-                          ?.classList.toggle("show")
-                      }
-                    >
-                      <Image
-                        width={24}
-                        height={24}
-                        src="/assets/img/icon/search-white.svg"
-                        alt="icon"
-                      />
-                      <span className="link-effect">
-                        <span className="effect-1">SEARCH</span>
-                        <span className="effect-1">SEARCH</span>
-                      </span>
-                    </button>
-                  </div>
-                </div>
+          
               </div>
             </div>
           </div>

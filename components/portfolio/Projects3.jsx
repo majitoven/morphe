@@ -6,6 +6,15 @@ import React from "react";
 export default function Projects3() {
   return (
     <div className="portfolio-area-1 space overflow-hidden">
+            <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-xl-7 col-lg-9">
+            <div className="title-area text-center">
+              <h2 className="sec-title">Nuestros proyectos favoritos :) </h2>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="row gy-40 gx-60 justify-content-center">
           {portfolioData5.map((elm, i) => (
