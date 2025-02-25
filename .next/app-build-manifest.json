@@ -1,145 +1,55 @@
 {
   "pages": {
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/(homes)/home-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-2/page.js"
-    ],
-    "/(homes)/home-3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-3/page.js"
-    ],
-    "/(homes)/home-4/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-4/page.js"
-    ],
-    "/(homes)/home-5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-5/page.js"
-    ],
-    "/(homes)/home-6/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-6/page.js"
-    ],
-    "/(homes)/home-7/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-7/page.js"
-    ],
-    "/(homes)/home-8/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-8/page.js"
-    ],
-    "/(homes)/home-9/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-9/page.js"
-    ],
-    "/(homes)/home-10/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-10/page.js"
-    ],
-    "/(homes)/home-11/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(homes)/home-11/page.js"
     ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/(services)/service/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(services)/service/page.js"
-    ],
-    "/(services)/service-details/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(services)/service-details/[id]/page.js"
-    ],
-    "/(team)/team-details/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(team)/team-details/[id]/page.js"
-    ],
-    "/pricing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricing/page.js"
-    ],
-    "/faq/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/faq/page.js"
-    ],
     "/(portfolio)/project/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(portfolio)/project/page.js"
-    ],
-    "/(portfolio)/project-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(portfolio)/project-2/page.js"
     ],
     "/(portfolio)/project-3/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(portfolio)/project-3/page.js"
     ],
-    "/(portfolio)/project-4/page": [
+    "/(portfolio)/project-2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(portfolio)/project-4/page.js"
+      "static/chunks/app/(portfolio)/project-2/page.js"
     ],
     "/(portfolio)/project-6/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(portfolio)/project-6/page.js"
     ],
-    "/(portfolio)/project-details/[id]/page": [
+    "/(portfolio)/project-5/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(portfolio)/project-details/[id]/page.js"
-    ],
-    "/(blog)/blog/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(blog)/blog/page.js"
-    ],
-    "/(blog)/blog-2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(blog)/blog-2/page.js"
-    ],
-    "/(blog)/blog-details/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(blog)/blog-details/[id]/page.js"
+      "static/chunks/app/(portfolio)/project-5/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",

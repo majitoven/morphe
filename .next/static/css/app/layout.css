@@ -19580,7 +19580,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 .header-layout2 .main-menu > ul > li > a {
   padding: 44.5px 20px;
-  color: var(--white-color);
+  color: var(--title-color);
 }
 .header-layout2 .main-menu > ul > li > a:before {
   border-color: var(--white-color);
@@ -19606,6 +19606,9 @@ ul.wp-block-latest-posts li:last-child {
 }
 .header-layout2 .sticky-wrapper.header-sticky {
   background: var(--title-color);
+}
+.header-layout2 .sticky-wrapper.header-sticky .main-menu > ul > li > a{
+  color: var(--white-color);
 }
 .header-layout2 .sidebar-btn {
   border-color: var(--white-color);
