@@ -42,7 +42,7 @@ export default function Features() {
                 <h6 style={{margin: 0}}><strong>SEO y analíticas:</strong></h6> Te hacemos visible en Google y te explicamos qué buscan tus visitas.
               </li>
               <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
-                <h6 style={{margin: 0}}><strong>Lo querés, lo tenés:</strong></h6> Tiendas online, sistemas de reservas o lo que necesites, lo armamos.
+                <h6 style={{margin: 0}}><strong>Lo que te imagines:</strong></h6> Tiendas online, web de presentación, sistemas de reservas o lo que necesites, lo armamos.
               </li>
             </ul>
           </div>
