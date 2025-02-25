@@ -7,7 +7,7 @@ export const faqs = [
   {
     id: 2,
     question: "Calidad asegurada",
-    answer: "Como ingeniera en sistemas, no improviso, hago las cosas bien."
+    answer: "Como ingeniera en sistemas con experiencia hace 7 años, no improviso, hago las cosas bien."
   },
   {
     id: 3,
@@ -17,7 +17,7 @@ export const faqs = [
   {
     id: 4,
     question: "Nos ocupamos de todo",
-    answer: "Diseñamos juntos, ajustamos lo que quieras y te ayudo con todo eso que vos no entendés (dominios, hosting, correos, ¡lo que sea!)."
+    answer: "Te ayudo con todo eso que vos no entendés (diseño, código, dominios, hosting, correos, ¡lo que sea!)."
   }
 ];
 
