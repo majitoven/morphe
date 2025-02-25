@@ -36,7 +36,7 @@ export default function Features() {
                 <h6 style={{margin: 0}}><strong>Desarrollo web:</strong></h6> Código sólido y rápido para que tu sitio vuele.
               </li>
               <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
-                <h6 style={{margin: 0}}><strong>Fotografía y multimedia:</strong></h6> Fotos y banners que muestran quién sos (la estética es lo mío y se nota).
+                <h6 style={{margin: 0}}><strong>Fotografía y multimedia:</strong></h6> Fotos y banners que destaquen la escencia de la marca (la estética es lo mío y se nota).
               </li>
               <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
                 <h6 style={{margin: 0}}><strong>SEO y analíticas:</strong></h6> Te hacemos visible en Google y te explicamos qué buscan tus visitas.
