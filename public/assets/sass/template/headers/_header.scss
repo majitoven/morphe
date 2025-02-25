@@ -399,9 +399,12 @@
             }
         }
     }
+    .sticky-wrapper.header-sticky .main-menu > ul > li > a {
+        color: $white-color;
+    }
     .main-menu > ul > li > a {
         padding: 44.5px 20px;
-        color: $white-color;
+        color: $title-color;
         &:before {
             border-color: $white-color;
         }
