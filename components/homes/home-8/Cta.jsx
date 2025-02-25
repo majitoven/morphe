@@ -30,7 +30,7 @@ export default function Cta() {
             <div className="title-area mb-xl-0 mb-40">
               <h2 className="sec-title">Trabajemos juntos :)</h2>
               <p className="sec-text mt-30 mb-n2">
-                Escribinos para contarnos de tu negocio y conocernos un poco más.
+                Escribinos para contarnos cómo podemos ayudarte y conocernos un poco más.
               </p>
               <div style={{ marginTop: "6rem" }}>
                 <Image
