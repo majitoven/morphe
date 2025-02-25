@@ -36,7 +36,7 @@ export default function Hero() {
           <Link
             scroll={false}
             className="circle-btn style2 btn bg-theme text-title gsap-magnetic wow img-custom-anim-left animated"
-            href="/contact"
+            href="#contact"
           >
             <span className="link-effect">
               <span className="effect-1">
