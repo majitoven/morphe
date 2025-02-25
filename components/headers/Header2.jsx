@@ -47,7 +47,7 @@ export default function Header2() {
           </button>
           <div className="mobile-logo">
             <Link scroll={false} href="/">
-              <Image width={86} height={24} src="/assets/img/logo.svg" alt="Ovation" />
+              <Image width={86} height={24} src="/assets/img/morphe.png" alt="Ovation" />
             </Link>
           </div>
           <div className="mobile-menu scrollable-content">
@@ -56,12 +56,12 @@ export default function Header2() {
             </ul>
           </div>
           <div className="sidebar-wrap">
-            <h6>27 Division St, New York,</h6>
-            <h6>NY 10002, USA</h6>
+            <h6>Montevideo, Uruguay.</h6>
+            <h6>Buenos Aires, Argentina.</h6>
           </div>
           <div className="sidebar-wrap">
-            <h6><a href="tel:1800123654987">+1 800 123 654 987</a></h6>
-            <h6><a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a></h6>
+            <h6><a href="tel+59895013550"> +598 95 013 550</a></h6>
+            <h6><a href="mailto:info@morphe.com.uy">info@morphe.com.uy</a></h6>
           </div>
           <div className="social-btn style3">
             <MobileMenuSocials />

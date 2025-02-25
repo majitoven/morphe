@@ -14,9 +14,9 @@ export default function Footer7() {
             </div>
             <div className="col-md-6 align-self-center text-md-end">
               <p className="copyright-text">
-                <a href="tel:1800123654987"> +598 95 013 550 </a>
+                <a href="tel:+59895013550"> +598 95 013 550 </a>
                 <br />
-                <a href="mailto:frisk.agency@mail.com">info@morphe.com.uy</a>
+                <a href="mailto:info@morphe.com.uy">info@morphe.com.uy</a>
               </p>
             </div>
           </div>
