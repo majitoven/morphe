@@ -26,7 +26,7 @@ export default function Cta() {
             <Link
               scroll={false}
               className="circle-btn btn bg-theme text-title gsap-magnetic"
-              href="/contact"
+              href="/contacto"
             >
               <span className="link-effect">
                 <span className="effect-1">CHARLEMOS</span>

@@ -227,46 +227,63 @@ export const projects2 = [
 export const portfolioData5 = [
   {
     id: 32,
-    imageSrc: "/assets/img/portfolio/portfolio4_1.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/1.png",
+    categoryLinks: ["Branding", "Development", "Presentation"],
     projectTitle: "Money Laundering Compliance Scanner",
-    title: "Decentralized Platform",
+    title: "Teeny Tiny Preschool",
   },
   {
     id: 33,
-    imageSrc: "/assets/img/portfolio/portfolio4_2.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/2.png", //and 3
+    categoryLinks: ["Ecommerce", "Store"],
     projectTitle: "Decentralized Lending Platform for Students",
-    title: "App for Business",
+    title: "La Dulcería Boutique",
   },
   {
     id: 34,
-    imageSrc: "/assets/img/portfolio/portfolio4_3.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/4.png", //and 5
+    categoryLinks: ["Ecommerce", "Store"],
     projectTitle: "Anti Money Laundering Compliance Scanner",
-    title: "Website Development",
+    title: "Nora Rey Boutique Online",
   },
   {
     id: 35,
-    imageSrc: "/assets/img/portfolio/portfolio4_4.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/6.png", //and 7
+    categoryLinks: ["Presentation", "Search Engine"],
     projectTitle: "Shopify Redesign for a Nova Scotia Winery",
-    title: "Nova Scotia Winery",
+    title: "Moviit Madrid",
   },
   {
     id: 36,
-    imageSrc: "/assets/img/portfolio/portfolio4_5.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/8.png",
+    categoryLinks: ["Branding", "Presentation", "Marketing"],
     projectTitle: "Trading Website Design & Development",
-    title: "Educational Platform",
+    title: "Casa Myrha",
   },
   {
     id: 37,
-    imageSrc: "/assets/img/portfolio/portfolio4_6.png",
-    categoryLinks: ["Branding", "Development", "Marketing"],
+    imageSrc: "/assets/img/portfolio/10.png", //and 11
+    categoryLinks: ["Presentation", "Reservation Engine"],
     projectTitle:
       "Shopify Redesign for a Nova Scotia WineryProduct Lineup Industrial Design for Caramba",
-    title: "Educational Platform",
+    title: "Restaurant El Palenque",
+  },
+  {
+    id: 37,
+    imageSrc: "/assets/img/portfolio/9.png",
+    categoryLinks: ["Ecommerce", "Store"],
+    projectTitle:
+      "Shopify Redesign for a Nova Scotia WineryProduct Lineup Industrial Design for Caramba",
+    title: "Laboratorio Lariales",
+  },
+
+  {
+    id: 37,
+    imageSrc: "/assets/img/portfolio/12.png",
+    categoryLinks: ["Presentation", "Development", "Marketing"],
+    projectTitle:
+      "Shopify Redesign for a Nova Scotia WineryProduct Lineup Industrial Design for Caramba",
+    title: "Candidato político",
   },
 ];
 

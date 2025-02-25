@@ -9,6 +9,15 @@ export default function Hero() {
   //   speed: -20,
   // });
 
+  // Function to handle smooth scrolling
+  const handleScroll = (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    const contactSection = document.getElementById("contacto");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" }); // Scroll smoothly to contact section
+    }
+  };
+
   return (
     <div className="hero-wrapper hero-6" id="hero">
       <div className="container">
@@ -18,18 +27,16 @@ export default function Hero() {
               <h1 className="hero-title text-lg-end wow img-custom-anim-right animated">
                 Creating The
               </h1>
-
               <h1 className="hero-title wow img-custom-anim-left animated">
                 Best Digital
               </h1>
-
               <h1 className="hero-title text-lg-end wow img-custom-anim-right animated">
                 Solution
               </h1>
             </div>
             <div className="col-lg-6 offset-lg-5">
               <p className="hero-text wow img-custom-anim-right animated">
-              Creamos experiencias digitales que no pasan desapercibidas. Combinamos código, diseño y un toque de magia para que tu web sea justo lo que necesitás.
+                Creamos experiencias digitales que no pasan desapercibidas. Combinamos código, diseño y un toque de magia para que tu web sea justo lo que necesitás.
               </p>
             </div>
           </div>
@@ -37,6 +44,7 @@ export default function Hero() {
             scroll={false}
             className="circle-btn style2 btn bg-theme text-title gsap-magnetic wow img-custom-anim-left animated"
             href="#contact"
+            onClick={handleScroll} // Add the scroll handler here
           >
             <span className="link-effect">
               <span className="effect-1">

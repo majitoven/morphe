@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Clients() {
   return (
-    <div className="client-area-3 overflow-hidden space">
+    <div className="client-area-3 overflow-hidden space" style={{background: 'black'}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-8">

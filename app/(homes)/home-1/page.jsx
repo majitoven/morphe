@@ -7,6 +7,7 @@ import SearchPopup from "@/components/headers/component/SearchPopup";
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/common/Blogs";
 import Faq from "@/components/homes/home-1/Faq";
+import Clients from "@/components/homes/home-8/Clients";
 
 import Cta from "@/components/homes/home-3/Cta";
 
@@ -27,7 +28,7 @@ export const metadata = {
 export default function HomePage1() {
   return (
     <>
-      <SearchPopup />
+      {/* <SearchPopup /> */}
       <Header2 />
       <Hero />
       <div id="que-hacemos">
@@ -41,6 +42,7 @@ export default function HomePage1() {
       <div id="portfolio">
         <Projects3 />
       </div>
+      {/* <Clients /> */}
       {/* <Portfolio /> */}
       {/* <Team /> */}
       {/* <Testimonials /> */}
