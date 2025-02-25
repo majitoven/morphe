@@ -30,17 +30,25 @@ export default function HomePage1() {
       <SearchPopup />
       <Header2 />
       <Hero />
-      <Features />
-      <Steps />
+      <div id="que-hacemos">
+        <Features />
+      </div>
+      <div id="como-trabajamos">
+        <Steps />
+      </div>
       <Faq />
       <MarqueeComponent />
-      <Projects3 />
+      <div id="portfolio">
+        <Projects3 />
+      </div>
       {/* <Portfolio /> */}
       {/* <Team /> */}
       {/* <Testimonials /> */}
       {/* <Blogs /> */}
       <Cta />
-      <Cta2 />
+      <div id="contacto">
+        <Cta2 />
+      </div>
       <Footer7 />
     </>
   );

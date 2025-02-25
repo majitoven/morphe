@@ -6,6 +6,16 @@ import { usePathname } from "next/navigation";
 export default function Nav() {
   const pathname = usePathname();
 
+  // Function to handle smooth scrolling for section links
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  // Function to check if a child link is active (used for sub-menus)
   const isChildActive = (links) => {
     let isActive = false;
     links.forEach((element) => {
@@ -25,7 +35,6 @@ export default function Nav() {
         });
       }
     });
-
     return isActive;
   };
 
@@ -47,7 +56,6 @@ export default function Nav() {
                   <span className="effect-1">{elm.title}</span>
                 </span>
               </a>
-
               <ul className="sub-menu">
                 {elm.subMenuItems.map((elm2, i2) => (
                   <li
@@ -103,20 +111,24 @@ export default function Nav() {
               </ul>
             </>
           ) : (
-            <Link
-              scroll={false}
+            <a
+              href={elm.link}
+              onClick={(e) => {
+                if (elm.link.startsWith("#")) {
+                  handleScroll(e, elm.link.substring(1));
+                }
+              }}
               className={
                 elm.link?.split("/")[1] == pathname?.split("/")[1]
                   ? "activeMenu"
                   : ""
               }
-              href={elm.link}
             >
               <span className="link-effect">
                 <span className="effect-1">{elm.title}</span>
                 <span className="effect-1">{elm.title}</span>
               </span>
-            </Link>
+            </a>
           )}
         </li>
       ))}
