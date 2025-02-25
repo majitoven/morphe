@@ -16,7 +16,7 @@ export default function Footer7() {
               <p className="copyright-text">
                 <a href="tel:+59895013550"> +598 95 013 550 </a>
                 <br />
-                <a href="mailto:info@morphe.com.uy">info@morphe.com.uy</a>
+                <a href="mailto:hola@morphe.com.uy">hola@morphe.com.uy</a>
               </p>
             </div>
           </div>

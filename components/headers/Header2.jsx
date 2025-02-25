@@ -61,7 +61,7 @@ export default function Header2() {
           </div>
           <div className="sidebar-wrap">
             <h6><a href="tel+59895013550"> +598 95 013 550</a></h6>
-            <h6><a href="mailto:info@morphe.com.uy">info@morphe.com.uy</a></h6>
+            <h6><a href="mailto:hola@morphe.com.uy">hola@morphe.com.uy</a></h6>
           </div>
           <div className="social-btn style3">
             <MobileMenuSocials />

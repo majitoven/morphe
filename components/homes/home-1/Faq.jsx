@@ -1,5 +1,6 @@
 import { faqs } from "@/data/faq";
 import React from "react";
+import Image from "next/image";
 
 export default function Faq() {
   return (
@@ -8,7 +9,9 @@ export default function Faq() {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8">
             <div className="title-area text-center ">
-              <h2 className="sec-title">Morphe es para vos porque:</h2>
+                          
+            
+              <h2 className="sec-title">   <Image width={146} height={84} src="/assets/img/morphewhite.png" alt="Ovation" style={{marginRight: '0.5rem', height: '7rem', width: '11rem'}} />es para vos porque:</h2>
             </div>
           </div>
           <div className="col-xl-8">

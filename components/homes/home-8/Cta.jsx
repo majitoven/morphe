@@ -1,8 +1,27 @@
 "use client";
 import Socials from "@/components/footers/component/Socials";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Cta() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect screen size on mount and resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // 768px as mobile breakpoint
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener for resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup listener on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="cta-area-1 overflow-hidden bg-theme space text-xl-start text-center">
       <div className="container">
@@ -13,23 +32,29 @@ export default function Cta() {
               <p className="sec-text mt-30 mb-n2">
                 Escribinos para contarnos de tu negocio y conocernos un poco más.
               </p>
-              {/* <p className="copyright-text mt-4 mb-3">
-                Copyright © 2025 */}
-                {/* <a href="https://themeforest.net/user/ib-themes/portfolio"> */}
-                  {/* Morphe */}
-                {/* </a> */}
-              {/* </p> */}
-              <div className="social-btn style3 justify-content-center justify-content-center" style={{marginTop: '2rem'}}>
-                <Socials />
+              <div style={{ marginTop: "6rem" }}>
+                <Image
+                  width={146}
+                  height={84}
+                  src="/assets/img/morpheBlack.png"
+                  alt="Ovation"
+                  style={{ marginRight: "0.5rem", height: "7rem", width: "11rem" }}
+                />
+                {/* Inline style to hide/show Socials */}
+                <div
+                  style={{
+                    marginTop: "0rem",
+                    display: isMobile ? "none" : "block", // Hidden on mobile, visible on larger screens
+                  }}
+                >
+                  <Socials />
+                </div>
               </div>
             </div>
           </div>
           <div className="col-xl-6">
             <div className="contact-form-wrap">
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="contact-form ajax-contact"
-              >
+              <form onSubmit={(e) => e.preventDefault()} className="contact-form ajax-contact">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">

@@ -6,8 +6,8 @@ export default function Socials() {
     <>
       {socialMediaLinks.map((link) => (
         <a key={link.id} href={link.href}>
-          <span className="link-effect">
-            <span>
+          <span >
+            <span style={{color: 'black'}}>
              Encontranos en 
               <i className={link.iconClass} style={{marginLeft: '0.5rem'}}></i>
             </span>
