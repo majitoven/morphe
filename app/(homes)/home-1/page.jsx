@@ -43,7 +43,7 @@ export default function HomePage1() {
         <Projects3 />
       </div>
       {/* <Clients /> */}
-      {/* <Portfolio /> */}
+      {/* <Portfolio /> */} 
       {/* <Team /> */}
       {/* <Testimonials /> */}
       {/* <Blogs /> */}
