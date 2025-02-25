@@ -18,7 +18,7 @@ export default function Cta() {
                 Let's Create Something Great
               </h2>
               <p className="sec-text mt-30 mb-n2 text-white">
-                Contame tu idea y te ayudo a explotar tu negocio. <strong>Fácil.</strong>
+                Contanos tu idea y te ayudamos a explotar tu negocio. <strong>Fácil.</strong>
               </p>
             </div>
           </div>

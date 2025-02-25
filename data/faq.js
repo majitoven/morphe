@@ -2,22 +2,22 @@ export const faqs = [
   {
     id: 1,
     question: "Precios que no asustan",
-    answer: "Armamos algo que te sirva sin que gastes de más."
+    answer: "Armamos tu web a medida sin que gastes de más. Sin comisiones por venta ni sorpresas."
   },
   {
     id: 2,
     question: "Calidad asegurada",
-    answer: "Como ingeniera en sistemas con experiencia hace 7 años, no improviso, hago las cosas bien."
+    answer: "Como ingenieras en sistemas con experiencia hace 7 años, no improvisamos, hacemos las cosas bien."
   },
   {
     id: 3,
-    question: "Rápido y sin vueltas",
-    answer: "Tu web lista en 3-4 semanas, con todo en orden."
+    question: "Rápido y productivo",
+    answer: "Tu web lista en 3-4 semanas: lista para recibir visitas."
   },
   {
     id: 4,
     question: "Nos ocupamos de todo",
-    answer: "Te ayudo con todo eso que vos no entendés (diseño, código, dominios, hosting, correos, ¡lo que sea!)."
+    answer: "Te ayudamos con todo eso que no entendés (diseño, código, dominios, hosting, correos, ¡lo que sea!)."
   }
 ];
 

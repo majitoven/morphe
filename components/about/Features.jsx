@@ -39,7 +39,7 @@ export default function Features() {
                 <h6 style={{margin: 0}}><strong>Fotografía y multimedia:</strong></h6> Fotos y banners que muestran quién sos (la estética es lo mío y se nota).
               </li>
               <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
-                <h6 style={{margin: 0}}><strong>SEO y analíticas:</strong></h6> Hago que te encuentren en Google y te explico qué buscan tus visitas.
+                <h6 style={{margin: 0}}><strong>SEO y analíticas:</strong></h6> Te hacemos visible en Google y te explicamos qué buscan tus visitas.
               </li>
               <li style={{marginBottom: '1rem', marginTop: '0.5rem'}}>
                 <h6 style={{margin: 0}}><strong>Lo querés, lo tenés:</strong></h6> Tiendas online, sistemas de reservas o lo que necesites, lo armamos.
