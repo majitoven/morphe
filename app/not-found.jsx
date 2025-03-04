@@ -1,4 +1,4 @@
-import Header3 from "@/components/headers/Header3";
+import Header2 from "@/components/headers/Header2";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -9,7 +9,7 @@ export const metadata = {
 export default function NotFoundPage() {
   return (
     <>
-      <Header3 />
+      <Header2 />
       <div className="error-wrapper text-center">
         <div className="container">
           <Image
@@ -19,7 +19,7 @@ export default function NotFoundPage() {
             src="/assets/img/normal/404.png"
             alt="error"
           />
-          <h2>Look Like You’re Lost</h2>
+          <h2>Parece que te has perdido...</h2>
           <p className="sec-text mb-30">
             The link you followed probably broken or the page has been removed
           </p>

@@ -5,22 +5,52 @@ import Image from "next/image";
 
 export default function Cta() {
   const [isMobile, setIsMobile] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState(null);
 
   // Detect screen size on mount and resize
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // 768px as mobile breakpoint
+      setIsMobile(window.innerWidth < 768);
     };
 
-    // Set initial state
     handleResize();
-
-    // Add event listener for resize
     window.addEventListener("resize", handleResize);
-
-    // Cleanup listener on unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Handle form input changes
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("loading");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setStatus("error");
+    }
+  };
 
   return (
     <div className="cta-area-1 overflow-hidden bg-theme space text-xl-start text-center">
@@ -40,13 +70,7 @@ export default function Cta() {
                   alt="Ovation"
                   style={{ marginRight: "0.5rem", height: "7rem", width: "11rem" }}
                 />
-                {/* Inline style to hide/show Socials */}
-                <div
-                  style={{
-                    marginTop: "0rem",
-                    display: isMobile ? "none" : "block", // Hidden on mobile, visible on larger screens
-                  }}
-                >
+                <div style={{ marginTop: "0rem", display: isMobile ? "none" : "block" }}>
                   <Socials />
                 </div>
               </div>
@@ -54,7 +78,7 @@ export default function Cta() {
           </div>
           <div className="col-xl-6">
             <div className="contact-form-wrap">
-              <form onSubmit={(e) => e.preventDefault()} className="contact-form ajax-contact">
+              <form onSubmit={handleSubmit} className="contact-form ajax-contact">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -64,17 +88,23 @@ export default function Cta() {
                         name="name"
                         id="name"
                         placeholder="Nombre completo*"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
+                        type="email"
                         className="form-control style-border"
                         name="email"
                         id="email"
                         placeholder="Email*"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                   </div>
@@ -85,17 +115,32 @@ export default function Cta() {
                         placeholder="Cómo podemos ayudarte?*"
                         id="contactForm"
                         className="form-control style-border style2"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
                       ></textarea>
                     </div>
                   </div>
                 </div>
                 <div className="form-btn col-12">
-                  <button type="submit" className="btn mt-20">
+                  <button type="submit" className="btn mt-20" disabled={status === "loading"}>
                     <span className="link-effect">
-                      <span className="effect-1">ENVIAR MENSAJE</span>
-                      <span className="effect-1">ENVIAR MENSAJE</span>
+                      <span className="effect-1">
+                        {status === "loading" ? "ENVIANDO..." : "ENVIAR MENSAJE"}
+                      </span>
+                      <span className="effect-1">
+                        {status === "loading" ? "ENVIANDO..." : "ENVIAR MENSAJE"}
+                      </span>
                     </span>
                   </button>
+                  {status === "success" && (
+                    <p style={{ color: "green", marginTop: "10px" }}>Mensaje enviado con éxito!</p>
+                  )}
+                  {status === "error" && (
+                    <p style={{ color: "red", marginTop: "10px" }}>
+                      Ocurrió un error. Inténtalo nuevamente.
+                    </p>
+                  )}
                 </div>
               </form>
             </div>
